@@ -1,0 +1,110 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: beige;
+    margin: 0;
+}
+
+#page-content {
+    margin: 0 10px;
+}
+
+.markdown {
+    margin: 0 20px;
+}
+
+.markdown img {
+    width: 50vw;
+    min-width: 300px;
+}
+
+code {
+    background-color: #f6f8fa !important;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.markdown .language-commandline {
+    padding: 14px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: #f6f8fa !important;
+    border-radius: 6px;
+    display: inline-block;
+    width: 90% !important
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav-bar .active {
+  background-color: #04AA6D;
+}
+
+.title {
+    text-align: center;
+    margin-top: 55px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 3px;
+}
+
+.github {
+    text-align: center;
+    margin: 8px;
+}
+
+.github img {
+    width: 40px;
+    height: 40px;
+}
+
+
+@media only screen and (min-width: 800px) {
+    #choropleth_chart {
+        margin: auto;
+        width: 65vw;
+    }
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+a img {
+    width: 50px !important;
+    min-width: 50px !important
+}
