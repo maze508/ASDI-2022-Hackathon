@@ -1,0 +1,7 @@
+venv/
+venv3.8/
+data/
+Data_Processing/
+packages
+model_output
+checkpoint

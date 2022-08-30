@@ -1,0 +1,17 @@
+.git
+.idea
+.test
+*.pyc
+__pycache__
+venv/
+venv3.8/
+.vscode
+*.db
+*.zip
+*.csv
+aws-test.py
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+data_processing_archive
