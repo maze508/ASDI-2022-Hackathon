@@ -2,7 +2,7 @@
 
 ### Connect to AWS
 - Update the `config.py` file in main directory by entering your AWS credentials.
-- **NOTE** : You will need to have access to AWS services to generate the data and train the model, although you can find a local copy of the data under the data folder, model checkpoints under the model_output folder and model predictions under the output folder.
+- **NOTE** : You will need to have access to AWS services to generate the data and train the model, although you can find a local copy of the data under the data folder and model checkpoints & predictions under the model_output folder.
 
 ### Data Collection
 
